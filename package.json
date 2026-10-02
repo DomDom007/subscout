@@ -1,0 +1,42 @@
+{
+  "name": "subscout",
+  "description": "Finds forgotten subscriptions and trials in your receipts and cancels them with one tap.",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Mokhles Ben Moallem <management@metatunisie.com>",
+  "license": "MIT",
+  "homepage": "https://mokhless2.github.io/subscout/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mokhless2/subscout.git"
+  },
+  "keywords": [
+    "subscout",
+    "micro-tool",
+    "client-side",
+    "privacy-first",
+    "offline-tool",
+    "ledger",
+    "open-source"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "qrcode-generator": "^2.0.4",
+    "fflate": "^0.8.3",
+    "js-yaml": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
